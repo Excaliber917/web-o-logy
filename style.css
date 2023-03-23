@@ -114,5 +114,15 @@
 .hero
 {
     border: 1px solid;
+    width: 100vw;
+    height: 100vh;
     
+}
+.hero_back
+{
+    border: 2px solid yellow;
+}
+.hero_img
+{
+    object-fit: cover;
 }
