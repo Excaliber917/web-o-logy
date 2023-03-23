@@ -134,6 +134,7 @@
     flex-direction: column;
     height: 40vh;
     color: floralwhite;
+    justify-content: center;
     background: #1d2221;
     padding: 0 10px;
 }
@@ -164,6 +165,7 @@
 
 .name_rank {
     /* border: 2px solid; */
+    margin-top: 14px;
 }
 
 .image_input {
