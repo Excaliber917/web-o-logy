@@ -128,8 +128,11 @@
 .hero_content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15px;
+    height: 70vh;
+    /* justify-content: center; */
+
     /* justify-content: center; */
 }
 
@@ -154,11 +157,145 @@
 
 
 .hero_desc {
-   
+
     position: relative;
-    right: 50px;
     font-size: 50px;
-    color: floralwhite;
-    line-height: 81px;
+    text-align: center;
+    color: white;
+    line-height: 94px;
     font-family: 'Rajdhani', sans-serif;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    color: floralwhite;
+    background: #1d2221;
+    padding: 0 10px;
+}
+
+.create_head {
+    text-align: center;
+}
+
+.create_content {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+}
+
+.photo {
+    /* border: 2px solid; */
+    color: antiquewhite;
+    /* border: 2px solid; */
+    padding: 5px 18px;
+    border-radius: 4px;
+    /* cursor: pointer; */
+    font-size: 35px;
+    background: #652929;
+}
+
+.name_rank {
+    /* border: 2px solid; */
+}
+
+.image_input {
+    /* background-color: aquamarine; */
+    cursor: pointer;
+}
+
+.name_inputs {
+    margin: 0 40px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid aquamarine;
+    font-size: 20px;
+    color: azure;
+    border-radius: 1pc;
+    padding: 6px 13px;
+
+}
+
+.view {
+    height: 100vh;
+    /* border: 2px solid; */
+    height: 100vh;
+    background: #1d2222;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-style: dashed;
+}
+
+.view_head {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+.event_desc {
+    height: 50vh;
+    /* border: 2px solid yellow; */
+    display: flex;
+    padding: 0 10px;
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.candidate {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.details {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 45px;
+}
+
+.details_head {
+    line-height: 82px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    border-radius: 2pc;
+    color: aliceblue;
+    border-bottom: 3px solid azure;
+}
+
+.candidate_desc {
+    color: wheat;
+}
+
+.candidate_name {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-bottom: 4px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.underline {
+    border-bottom: 2px solid aquamarine;
+    width: 70%;
+    margin-bottom: 38px;
+    border-radius: 2pc;
 }

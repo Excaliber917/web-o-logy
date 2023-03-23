@@ -25,9 +25,9 @@
 
     <div class="hero">
       <div class="hero_content">
-        <div class="hero_logo">
+        <!-- <div class="hero_logo">
           <h1>CodeX</h1>
-        </div>
+        </div> -->
         <div class="hero_desc">
           <h1>
             CodeX <br />
@@ -37,6 +37,57 @@
         </div>
       </div>
     </div>
+
+    <div class="create">
+      <div class="create_head">
+        <h1>Create</h1>
+      </div>
+
+      <div class="create_content">
+        <div class="photo">
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+          <label for="image" class="image_input">Set a image</label>
+          <input
+            id="image"
+            type="file"
+            accept="image/*"
+            style="display: none"
+          />
+        </div>
+        <div class="name_rank">
+          <input type="text" placeholder="Name" class="name_inputs" />
+          <input type="text" placeholder="Rank" class="name_inputs" />
+        </div>
+      </div>
+    </div>
+    <div class="view">
+      <div class="view_head">View</div>
+      <div class="event_desc">
+        <div class="img">
+          <img
+            src="hero.jpeg"
+            alt="candidate image"
+            srcset=""
+            class="candidate"
+          />
+        </div>
+        <div class="details">
+          <h1 class="details_head">Event</h1>
+          <h1 class="details_head">Organisation</h1>
+          <h1 class="details_head">Date time</h1>
+        </div>
+      </div>
+      <div class="candidate_name">
+        <p class="candidate_desc">Name</p>
+        <div class="underline"></div>
+        <p class="candidate_desc">Rank</p>
+        <div class="underline"></div>
+      </div>
+    </div>
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/021e7ee46e.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
