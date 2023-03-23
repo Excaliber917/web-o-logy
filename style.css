@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    background-color: black;
+    background-color: #1e1f23;
     color: whitesmoke;
     height: 60px;
     display: flex;
@@ -56,13 +56,14 @@
 .nav_menu:hover {
     color: rgb(131, 126, 126);
 }
-.hamburger
-{
+
+.hamburger {
     display: none;
     cursor: pointer;
     padding: 1.05rem;
 }
-.bar{
+
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -71,11 +72,12 @@
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+
 @media (max-width:760px) {
-    .hamburger
-    {
+    .hamburger {
         display: block;
     }
+
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -88,8 +90,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .menus
-    {
+    .menus {
         position: fixed;
         left: -100%;
         top: 59px;
@@ -100,29 +101,64 @@
         text-align: center;
         transition: 0.3s;
     }
-    .menus.active
-    {
+
+    .menus.active {
         left: 0;
     }
-    .nav_menu
-    {
+
+    .nav_menu {
         margin: 10px 60px;
     }
-    
+
 }
 
-.hero
-{
-    border: 1px solid;
-    width: 100vw;
-    height: 100vh;
-    
+.hero {
+    /* border: 1px solid; */
+    /* width: 100vw; */
+    height: 70vh;
+    background-image: url("hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* opacity: 0.9; */
+
+
 }
-.hero_back
-{
-    border: 2px solid yellow;
+
+.hero_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    /* justify-content: center; */
 }
-.hero_img
-{
-    object-fit: cover;
+
+.hero_logo {
+    border: 1px solid yellow;
+    height: 275px;
+    color: whitesmoke;
+    width: 500px;
+    /* z-index: 1; */
+    font-size: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid navajowhite;
+    border-radius: 51%;
+    background: linear-gradient(47deg, black, #c65151);
+
+    font-family: 'Alkatra', cursive;
+}
+
+
+.hero_desc {
+   
+    position: relative;
+    right: 50px;
+    font-size: 50px;
+    color: floralwhite;
+    line-height: 81px;
+    font-family: 'Rajdhani', sans-serif;
 }
